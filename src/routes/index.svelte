@@ -9,10 +9,11 @@
 		<h1>gScript©️</h1>
 		<div class="links">
 			<button on:click={() => redirect("https://www.npmjs.com/package/gscript-compiler")}>Compiler</button>
-			<button on:click={() => redirect("https://github.com/gscript-lang/gscript")}>GitHub</button>
+			<button on:click={() => redirect("https://www.npmjs.com/package/gscript-cli")}>CLI</button>
+			<button on:click={() => redirect("https://github.com/gscript-lang/")}>GitHub</button>
 		</div>
 	</div>
-	<h3>Made with ❤ by <a class="fx" href="https://molai.dev/">molai.dev</a></h3>
+	<h3>Made with ❤ by <a class="fx" href="https://molai.dev/">molai.dev</a> →</h3>
 </div>
 
 <style lang="scss">
