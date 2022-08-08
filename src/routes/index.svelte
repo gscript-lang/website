@@ -6,6 +6,7 @@
 
 <div class="container">
 	<div class="top">
+		<img src="./g.png" alt="GScript Logo">
 		<h1>gScript©️</h1>
 		<div class="links">
 			<button on:click={() => redirect("https://www.npmjs.com/package/gscript-compiler")}>Compiler</button>
@@ -24,18 +25,22 @@
 		width: 100vw;
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 		flex-direction: column;
-		gap: 25px;
+		gap: 50px;
 		font-family: 'Josefin Sans', sans-serif;
 
 		.top {
 			display: flex;
-			margin-top: 350px;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
 			gap: inherit;
+
+			img {
+				width: 250px;
+				height: 250px;
+			}
 
 			h1 {
 				color: white;
